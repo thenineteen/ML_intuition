@@ -1,0 +1,8 @@
+# linear SVC
+visualise_decision_boundary(svm.SVC(kernel='linear'), 'Decision boundary of SVC')
+
+# LR
+visualise_decision_boundary(LogisticRegression(C=1), 'Decision surface of LR C=1')
+
+# Compare LR C=1 to the below LR C=10000 model where the decision boundary conincides with that of SVC:
+visualise_decision_boundary(LogisticRegression(C=10000), 'Decision surface of LR C=10000')
