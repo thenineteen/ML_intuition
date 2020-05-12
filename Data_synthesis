@@ -1,6 +1,6 @@
 # Data Synthesis
 
-def data_synthesis ():
+def data_synthesis():
   X1 = np.array([
     [1, 1],
     ]* 100)
